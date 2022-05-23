@@ -12,5 +12,5 @@ def test_haversine_output_value():
     #testing distance le Wagon to UVa
     lat1, lon1 = 48.865070, 2.380009
     lat2, lon2 = 41.6626268,-4.7099289
-    np.testing.assert_allclose(1070.3365819241662,
+    np.testing.assert_allclose(1070.336581924166,
                                haversine(lon1, lat1, lon2, lat2), rtol=1e-1)
