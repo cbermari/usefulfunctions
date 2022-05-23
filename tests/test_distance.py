@@ -1,5 +1,5 @@
 # tests/test_distance.py
-from mlproject.distance import haversine
+from usefulfunctions.distance import haversine
 import numpy as np
 
 def test_haversine_output_type():
